@@ -36,3 +36,5 @@ else
 fi
 
 bashio::log.info "Finished Amazon S3 Backup."
+
+s6-svscanctl -t /var/run/service

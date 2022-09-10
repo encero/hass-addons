@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.1
+- Terminate the backup process after single execution, preventing infinite loop.
+
 ## 1.2.0
 - You can now configure if you want to automatically delete older backups and how many backups you want to keep locally.
   * `delete_local_backups` defaults to `true`, which means it will automatically delete older backups and keep `local_backups_to_keep` which defaults to `3`
